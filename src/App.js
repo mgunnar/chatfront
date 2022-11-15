@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { useState } from "react";
 import Chat from "./Chat";
 
-const socket = io.connect("192.168.15.5:3001");
+const socket = io.connect("http://backendchat2.herokuapp.com:3001");
 //variavel socket Deve apontar para o IP do servidor
 
 function App() {
